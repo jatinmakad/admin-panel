@@ -57,14 +57,14 @@ const Header = () => {
                     <strong _ngcontent-serverapp-c44> USD 0.00 </strong>
                   </a>
 
-                  <a _ngcontent-serverapp-c44 className="dropdown-item">
+                  <Link to='/login' _ngcontent-serverapp-c44 className="dropdown-item">
                     <i
                       _ngcontent-serverapp-c44
                       aria-hidden="true"
                       className="fa fa-sign-out"
                     />
                     Logout
-                  </a>
+                  </Link>
                   <a
                     _ngcontent-serverapp-c44
                     id="apk"
@@ -337,13 +337,13 @@ const Header = () => {
                   </li>
 
                   <li _ngcontent-serverapp-c44 className="logout">
-                    <a _ngcontent-serverapp-c44 id="logout">
+                    <Link to='/login' _ngcontent-serverapp-c44 id="logout">
                       Logout
                       <img
                         _ngcontent-serverapp-c44
                         src="assets/images/transparent.gif"
                       />
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </div>
