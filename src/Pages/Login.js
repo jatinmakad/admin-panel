@@ -2,7 +2,7 @@ import React from "react";
 
 const Login = () => {
   return (
-    <app-login _nghost-serverapp-c88 className="ng-star-inserted">
+    <>
       <div
         apptheme
         className="over-wrap loading-overlay ng-star-inserted"
@@ -81,7 +81,7 @@ const Login = () => {
           </form>
         </div>
       </div>
-    </app-login>
+    </>
   );
 };
 

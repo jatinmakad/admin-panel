@@ -29,7 +29,7 @@ function App() {
     return createBrowserRouter(
       createRoutesFromElements(
         <>
-          {/* <Route path="/login" element={<Login />} /> */}
+          <Route path="/login" element={<Login />} />
           <Route element={<PrivateRoute />}>
             {getAuthorizedRoutes().map(({ path, Component }, index) => (
               <Route key={index} path={path} element={<Component />} />
