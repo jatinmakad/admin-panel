@@ -1,9 +1,8 @@
 import React from "react";
-import Layout from "../Layout";
 
 const BetListLive = () => {
   return (
-    <Layout>
+
       <app-bet-list-live _nghost-serverapp-c86 className="ng-star-inserted">
         <div _ngcontent-serverapp-c86 className="full-wrap">
           <div _ngcontent-serverapp-c86 className="over-wrap">
@@ -1284,7 +1283,7 @@ const BetListLive = () => {
           </div>
         </app-modal>
       </app-bet-list-live>
-    </Layout>
+   
   );
 };
 

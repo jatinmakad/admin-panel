@@ -1,5 +1,4 @@
 import React from "react";
-import Layout from "../Layout";
 import Select from "react-select";
 const BetList = () => {
   const marketOptions = [
@@ -27,7 +26,7 @@ const eventOptions = [
   { value: "3", label: "Event 3" },
 ];
   return (
-    <Layout>
+    
       <app-betlist _nghost-serverapp-c131 className="ng-star-inserted">
         <div
           _ngcontent-serverapp-c131
@@ -2322,7 +2321,7 @@ const eventOptions = [
           </div>
         </app-modal>
       </app-betlist>
-    </Layout>
+ 
   );
 };
 

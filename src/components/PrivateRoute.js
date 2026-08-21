@@ -1,14 +1,21 @@
 import { Navigate, Outlet, useLocation } from "react-router-dom";
-import { useContext } from "react";
 import { isEmpty } from "lodash";
-import Header from "../components/Header";
 import { getDecodedToken } from "../Utils/Constant";
+import Layout from "../Pages/Layout";
+
 const PrivateRoute = () => {
+  const location = useLocation();
   const token = localStorage.getItem("token");
   const user = token ? getDecodedToken()?.user : null;
+  // if (isEmpty(user)) {
+  //   return <Navigate to="/login" replace state={{ from: location }} />;
+  // }
 
-  // return !isEmpty(user) ? <Outlet /> : <Navigate to="/login" replace />;
-  return <Outlet/>
+  return (
+    <Layout>
+      <Outlet />
+    </Layout>
+  );
 };
 
 export default PrivateRoute;

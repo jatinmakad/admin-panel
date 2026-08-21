@@ -277,7 +277,7 @@
     margin: 0 20px;
     position: relative;
     top: 25%;
-    width: 50%;
+    width: 42%;
 }
 
 .login-panel .logo {
@@ -1443,12 +1443,6 @@ option {
     padding: 8px
 }
 
-.table01 td, .table-s td, .table_one td {
-    position: relative;
-    border-top: 1px solid #eee;
-    padding: 8px 7px;
-    vertical-align: middle
-}
 
 .table01 a, .table-s a, .table_one a {
     text-decoration: none;
@@ -2022,7 +2016,8 @@ table .btn, table .btn-send, table .marquee-pop .pages a, .marquee-pop .pages ta
     font-size: 15px;
     color: #243a48;
     line-height: 20px;
-    font-weight: 700
+    font-weight: 700;
+    margin-bottom: 0;
 }
 
 .white-wrap, .total_box, .fix-content {
@@ -2639,7 +2634,7 @@ table .btn i.fa {
 }
 
 .delete {
-    background: url(/public/assets/images/main-s1aea395e8c.png) no-repeat -388px -1140px;
+    /* background: url(/public/assets/images/main-s1aea395e8c.png) no-repeat -388px -1140px; */
     height: 20px;
     margin-top: 2px
 }
@@ -2767,12 +2762,6 @@ table .btn i.fa {
     color: #000
 }
 
-.total_box .total_dl dd {
-    font-size: 15px;
-    color: #243a48;
-    line-height: 20px;
-    font-weight: 700
-}
 
 @media (max-width: 750px) {
     .total_box {
@@ -2788,9 +2777,15 @@ table .btn i.fa {
 .white-wrap, .total_box, .fix-content {
     background-color: #fff;
     color: #3b5160;
-    padding: 7px 10px 5px;
+    padding: 7px 10px 5px !important;
     border-bottom: 1px solid #7e97a7;
     margin-bottom: 8px
+}
+
+.clearfix:after, .over-wrap:after, .filter_selection:after, .filter_selection-stake:after, .filter_selection-id:after, .pop-warp:after, .log-wrap:after, .streaming-pop:after, .col-center:after, .login-wrap:after, .account-wrap:after, .menu:after, .setting-wrap:after, .tab-highlight:after, .marquee-pop .input-list:after, .marquee-pop .filter-list:after, .tab:after, .input-list:after, .filter-list:after, .filter-pop ul:after, .acc-info:after, .total-show:after, .total_info:after, .action:after, .footer_info .action:after, .half_box:after, .pt_allowed dl:after, .status_but:after, .agent_path ul:after, .member_select:after, .tab-topplay:after, .slip-head:after, .agent-path:after, .btn_list-DW:after, .filter_setting-wrap .btn-wrap:after, .filter_setting-stakes-wrap .btn-wrap:after, .change_pass:after, .game-wrap:after, .game-highlight-wrap:after, .menu-wrap:after, .stake-set:after, .odds-set:after, .upcome:after, .marquee-box:after, .form_list dd:after, .add_account_box dl dd:after, .pt_allowed dl dd:after, .white-wrap:after, .total_box:after, .fix-content:after, .pop-left dl:after, .pop-left dd:after, .initial-balance:after, .final-balance:after, .table01 .ico_account:after, .table-s .ico_account:after, .table_one .ico_account:after, .footer_info .main_wrap:after, .footer_info .header:after, .footer_info .footer-content:after, .pt_allowed:after, .status_id:after, .agent_path:after, .agent_path-L .drop_down_li:after, .inline-form:after, .play_race-wrap:after, .top_player-wrap:after, .banking-head dd:after, .DW-amount:after, .credit-amount:after, .wrap-refer_edit dl:after, .filter_selection-wrap:after {
+    content: "";
+    display: block;
+    clear: both;
 }
 
 .favor-set {
@@ -2866,7 +2861,7 @@ table .btn i.fa {
     width: 17px;
     margin-right: 2px;
     background-position: 100% -2560px;
-    background-image: url(/public/assets/images/main-s1aea395e8c.png);
+    /* background-image: url(/public/assets/images/main-s1aea395e8c.png); */
     background-repeat: no-repeat
 }
 
@@ -2879,7 +2874,7 @@ table .btn i.fa {
     width: 7px;
     height: 25px;
     background-position: 100% -3365px;
-    background-image: url(/public/assets/images/main-s1aea395e8c.png);
+    /* background-image: url(/public/assets/images/main-s1aea395e8c.png); */
     background-repeat: no-repeat
 }
 
@@ -3043,11 +3038,6 @@ table .btn i.fa {
     margin-right: 20px
 }
 
-.clearfix:after, .over-wrap:after, .filter_selection:after, .filter_selection-stake:after, .filter_selection-id:after, .pop-warp:after, .log-wrap:after, .streaming-pop:after, .col-center:after, .login-wrap:after, .account-wrap:after, .menu:after, .setting-wrap:after, .tab-highlight:after, .marquee-pop .input-list:after, .marquee-pop .filter-list:after, .tab:after, .input-list:after, .filter-list:after, .filter-pop ul:after, .acc-info:after, .total-show:after, .total_info:after, .action:after, .footer_info .action:after, .half_box:after, .pt_allowed dl:after, .status_but:after, .agent_path ul:after, .member_select:after, .tab-topplay:after, .slip-head:after, .agent-path:after, .btn_list-DW:after, .filter_setting-wrap .btn-wrap:after, .filter_setting-stakes-wrap .btn-wrap:after, .change_pass:after, .game-wrap:after, .game-highlight-wrap:after, .menu-wrap:after, .stake-set:after, .odds-set:after, .upcome:after, .marquee-box:after, .form_list dd:after, .add_account_box dl dd:after, .pt_allowed dl dd:after, .white-wrap:after, .total_box:after, .fix-content:after, .pop-left dl:after, .pop-left dd:after, .initial-balance:after, .final-balance:after, .total_all:after, .table01 .ico_account:after, .table-s .ico_account:after, .table_one .ico_account:after, .footer_info .main_wrap:after, .footer_info .header:after, .footer_info .footer-content:after, .pt_allowed:after, .status_id:after, .agent_path:after, .agent_path-L .drop_down_li:after, .inline-form:after, .play_race-wrap:after, .top_player-wrap:after, .banking-head dd:after, .DW-amount:after, .credit-amount:after, .wrap-refer_edit dl:after, .filter_selection-wrap:after {
-    content: "";
-    display: block;
-    clear: both
-}
 
 
 
@@ -3558,7 +3548,7 @@ p.space-visitor {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    gap: .5rem
+    /* gap: .5rem */
 }
 
 .total_all ng-select {
@@ -4055,5 +4045,1938 @@ p.space-visitor {
 
 
 .wrapInput {
-    flex-wrap: wrap!important;
+    flex-wrap: wrap !important;
+}
+
+
+
+.table01, .table-s, .table_one {
+    width: 100%;
+    background-color: #fff;
+    border-collapse: collapse;
+    border-bottom: 1px solid #7e97a7;
+    margin-bottom: 15px;
+    text-align: right
+}
+
+.table01 th, .table-s th, .table_one th {
+    color: #243a48;
+    background-color: #e4e4e4;
+    border: 1px solid #7e97a7;
+    border-width: 1px 0 1px 0;
+    padding: 8px
+}
+
+
+.table01 a, .table-s a, .table_one a {
+    text-decoration: none;
+    cursor: pointer
+}
+
+.table01 span, .table-s span, .table_one span {
+    vertical-align: middle
+}
+
+.table01 .action a, .table-s .action a, .table_one .action a {
+    width: 26px;
+    height: 26px;
+    margin-left: 3px
+}
+
+.table01 .action .status:hover, .table-s .action .status:hover, .table_one .action .status:hover {
+    background-position: -32px -1540px
+}
+
+.table01 .action .profile:hover, .table-s .action .profile:hover, .table_one .action .profile:hover {
+    background-position: -32px -1449px
+}
+
+.table01 .action .p_l:hover, .table-s .action .p_l:hover, .table_one .action .p_l:hover {
+    background-position: -32px -1397px
+}
+
+.table01 .action .betting_history:hover, .table-s .action .betting_history:hover, .table_one .action .betting_history:hover {
+    background-position: -32px -282px
+}
+
+.table01 caption, .table-s caption, .table_one caption {
+    background-color: #3b5160;
+    border-bottom: 1px solid #7e97a7;
+    color: #fff;
+    line-height: 1;
+    font-weight: 700;
+    padding: 0 10px
+}
+
+.table01 .border-l, .table-s .border-l, .table_one .border-l {
+    border-left: 1px solid #7e97a7
+}
+
+.table01 .order, .table-s .order, .table_one .order {
+    width: 22px;
+    margin-right: 7px;
+    font-weight: 700
+}
+
+.table01 .border-l, .table-s .border-l, .table_one .border-l {
+    border-left: 1px solid #7e97a7
+}
+
+.table01 .expand-open, .table01 .expand-close, .table-s .expand-open, .table-s .expand-close, .table_one .expand-open, .table_one .expand-close {
+    float: left;
+    height: 15px;
+    padding-right: 0;
+    margin-right: 4px
+}
+
+.table01 input, .table-s input, .table_one input {
+    margin: 0
+}
+
+.expand-close, .expand-open {
+    text-decoration: none;
+    color: #000;
+    padding-right: 20px;
+    background-position: 100% -136px
+}
+
+.expand>td {
+    padding: 0
+}
+
+.expand table {
+    width: 85%;
+    border-left: 1px solid #7e97a7;
+    border-bottom-width: 0;
+    margin-left: 15%
+}
+
+.expand table td {
+    border-width: 0;
+    padding: 8px 10px
+}
+
+.expand table .even {
+    background-color: #f2f4f7
+}
+
+.expand table .sum-pl {
+    background-color: #d9e4ec;
+    border-top: 1px solid #7e97a7
+}
+
+.expand table .sum-pl dl {
+    padding: 5px 0
+}
+
+.expand table .sum-pl dt {
+    width: 82%;
+    padding: 0 10px 5px;
+    color: #243a48
+}
+
+.expand table .sum-pl dd {
+    padding: 0 10px 5px
+}
+
+.expand table .sum-pl .net_total {
+    padding-top: 5px;
+    border-top: 1px dotted #7e97a7
+}
+
+.expand table .sum-pl td {
+    padding: 0
+}
+
+.expand .table-commission {
+    width: 75%;
+    margin-left: 23%;
+    border-right: 1px solid #7e97a7
+}
+
+.expand>td {
+    position: relative;
+    border-top-color: #7e97a7;
+    border-bottom: 1px solid #7e97a7
+}
+
+.table-pnl .expand-open, .table-pnl .expand-close, .table-pnl .expand-open {
+    display: block;
+    width: inherit;
+    padding-right: 20px;
+    float: none
+}
+
+.expand-close {
+    background-position: 100% -136px
+}
+
+.expand-open {
+    background-position: 100% -151px
+}
+
+.expand-arrow-R {
+    position: absolute;
+    left: 98%;
+    margin-top: -1px;
+    background-position: -17px -118px;
+    height: 9px;
+    width: 10px
+}
+
+.expand-arrow {
+    position: absolute;
+    left: 15%;
+    margin-left: -10px;
+    background-position: -17px -127px;
+    height: 9px;
+    width: 10px
+}
+
+.table01 .btn, .table-s .btn, .table_one .btn, .table01 .btn-send, .table-s .btn-send, .table_one .btn-send, .table01 .pages a, .pages .table01 a, .table-s .pages a, .pages .table-s a, .table_one .pages a, .pages .table_one a, .table01 .calendarTable_inputBox input, .calendarTable_inputBox .table01 input, .table-s .calendarTable_inputBox input, .calendarTable_inputBox .table-s input, .table_one .calendarTable_inputBox input, .calendarTable_inputBox .table_one input, .table01 .calendarTable_inputBox textarea, .calendarTable_inputBox .table01 textarea, .table-s .calendarTable_inputBox textarea, .calendarTable_inputBox .table-s textarea, .table_one .calendarTable_inputBox textarea, .calendarTable_inputBox .table_one textarea, .table01 .calendarTable_inputBox .member_select a, .calendarTable_inputBox .member_select .table01 a, .table-s .calendarTable_inputBox .member_select a, .calendarTable_inputBox .member_select .table-s a, .table_one .calendarTable_inputBox .member_select a, .calendarTable_inputBox .member_select .table_one a, .table01 .member_select .calendarTable_inputBox a, .member_select .calendarTable_inputBox .table01 a, .table-s .member_select .calendarTable_inputBox a, .member_select .calendarTable_inputBox .table-s a, .table_one .member_select .calendarTable_inputBox a, .member_select .calendarTable_inputBox .table_one a, .table01 .total_all .btn_replay, .total_all .table01 .btn_replay, .table-s .total_all .btn_replay, .total_all .table-s .btn_replay, .table_one .total_all .btn_replay, .total_all .table_one .btn_replay, .table01 .btn_expand, .table-s .btn_expand, .table_one .btn_expand, .table01 .add_member, .table-s .add_member, .table_one .add_member {
+    text-decoration: none
+}
+
+.fromto {
+    margin: 0 5px;
+    background-position: -20px -182px;
+    height: 8px;
+    width: 7px;
+    vertical-align: middle
+}
+
+.over-wrap .table01:last-of-type, .over-wrap .table-s:last-of-type, .over-wrap .table_one:last-of-type {
+    margin-bottom: 0
+}
+
+table .btn, table .btn-send, table .marquee-pop .pages a, .marquee-pop .pages table a, table .pages a, .pages table a, table .calendarTable_inputBox input, .calendarTable_inputBox table input, table .calendarTable_inputBox textarea, .calendarTable_inputBox table textarea, table .calendarTable_inputBox .member_select a, .calendarTable_inputBox .member_select table a, table .member_select .calendarTable_inputBox a, .member_select .calendarTable_inputBox table a, table .total_all .btn_replay, .total_all table .btn_replay, table .btn_expand, table .add_member {
+    margin: 0
+}
+
+.DW-amount {
+    border-left: 1px solid #7e97a7
+}
+
+.DW-amount input, .DW-amount textarea, .DW-amount .member_select a, .member_select .DW-amount a {
+    width: calc(100% - 124px);
+    font-size: 13px;
+    font-weight: 700;
+    margin: 0 7px
+}
+
+.total, .grand-total {
+    font-weight: 700;
+    color: #243a48
+}
+
+.total td, .grand-total td {
+    border-top-color: #7e97a7;
+    border-bottom: 1px solid #7e97a7
+}
+
+.table-pt .expand.first {
+    box-shadow: inset 0 2px #0000001a
+}
+
+.table-pt .expand td {
+    border-bottom-color: #e2e8ed
+}
+
+.table-pt .expand td:first-child {
+    padding-left: 14px
+}
+
+.table-pt td, .table-pt th {
+    padding: 8px 5px
+}
+
+.table-pt .expand-open, .table-pt .expand-close {
+    width: 15px;
+    padding-left: 0
+}
+
+.table-pt>td {
+    padding: 0
+}
+
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+    .table-pt td {
+        padding: 8px 3px
+    }
+}
+
+.expand {
+    background-color: #e2e8ed
+}
+
+.expand>td {
+    position: relative;
+    border-top-color: #7e97a7;
+    border-bottom: 1px solid #7e97a7
+}
+
+.expand.expand_1 {
+    background-color: #ebebeb
+}
+
+.expand.expand_1 td:first-child {
+    padding-left: 6px !important
+}
+
+.expand.expand_2 {
+    background-color: #e9e9e9
+}
+
+.expand.expand_2 td:first-child {
+    padding-left: 12px !important
+}
+
+.expand.expand_3 {
+    background-color: #e6e6e6
+}
+
+.expand.expand_3 td:first-child {
+    padding-left: 18px !important
+}
+
+.expand.expand_4 {
+    background-color: #e4e4e4
+}
+
+.expand.expand_4 td:first-child {
+    padding-left: 24px !important
+}
+
+.expand.expand_5 {
+    background-color: #e1e1e1
+}
+
+.expand.expand_5 td:first-child {
+    padding-left: 30px !important
+}
+
+.expand.expand_6 {
+    background-color: #dfdfdf
+}
+
+.expand.expand_6 td:first-child {
+    padding-left: 36px !important
+}
+
+.expand.expand_7 {
+    background-color: #dcdcdc
+}
+
+.expand.expand_7 td:first-child {
+    padding-left: 42px !important
+}
+
+.expand.expand_8 {
+    background-color: #dadada
+}
+
+.expand.expand_8 td:first-child {
+    padding-left: 48px !important
+}
+
+.expand.expand_9 {
+    background-color: #d7d7d7
+}
+
+.expand.expand_9 td:first-child {
+    padding-left: 54px !important
+}
+
+.expand.expand_10 {
+    background-color: #d5d5d5
+}
+
+.expand.expand_10 td:first-child {
+    padding-left: 60px !important
+}
+
+.expand table {
+    width: 85%;
+    border-left: 1px solid #7e97a7;
+    border-bottom-width: 0;
+    margin-left: 15%
+}
+
+.expand table th {
+    background-color: transparent;
+    border-top-width: 0
+}
+
+.expand table td {
+    border-width: 0;
+    padding: 8px 10px
+}
+
+.expand-balance th {
+    padding: 8px 10px
+}
+
+.expand>td, .table01 .border-t td, .table-s .border-t td, .table_one .border-t td, .slip-head {
+    box-shadow: inset 0 2px #0000001a
+}
+
+.expand-arrow {
+    visibility: visible
+}
+
+.table01 .btn-recall, .table-s .btn-recall, .table_one .btn-recall {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    font-size: 11px;
+    line-height: 2;
+    text-decoration: none;
+    padding: 0
+}
+
+.selectedDep {
+    border-color: #0003;
+    color: #fff;
+    background: #5bab03;
+    box-shadow: inset 0 1px 3px #00000080
+}
+
+.selectedWith {
+    border-color: #0003;
+    color: #fff;
+    background: #d0021b !important;
+    box-shadow: inset 0 1px 3px #00000080
+}
+
+.displayfelx {
+    display: flex
+}
+
+.report-tab-wrap {
+    position: relative;
+    margin-top: 16px;
+    list-style-type: none
+}
+
+.report-tab-wrap .report-tab {
+    display: inline-block;
+    padding: 5px 24px 9px;
+    margin-right: 2px;
+    background-color: #fff;
+    border: 1px solid #3b5160;
+    border-radius: 3px 3px 0 0;
+    color: #3b5160;
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer
+}
+
+.report-tab-wrap .report-tab.select {
+    background-color: #3b5160;
+    color: #fff
+}
+
+.report-tab-wrap .report-tab.select:before {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background-color: #3b5160
+}
+
+.activated-text {
+    margin-left: 4%
+}
+
+.import-button {
+    margin-left: 3%
+}
+
+.activated-switch {
+    margin-left: 5px
+}
+
+.total_box {
+    width: 100%;
+    padding: 8px 0;
+    margin-top: 8px;
+    display: flex
+}
+
+.total_box .total_dl {
+    min-width: 14.96815%;
+    padding: 0 10px;
+    border-right: 1px solid #d2d2d2
+}
+
+
+
+
+@media (max-width: 750px) {
+    .total_box {
+        padding: 0;
+        overflow: auto
+    }
+
+    .classmargin {
+        margin-bottom: 10px
+    }
+
+    .td-uid {
+        overflow: inherit
+    }
+
+    .displayfelx {
+        display: flex
+    }
+
+    .DW-amount input {
+        width: 107px !important
+    }
+
+    .total_dl {
+        min-width: auto !important;
+        padding: 0 10px;
+        border-right: 1px solid #d2d2d2
+    }
+
+    .total_dl dt {
+        font-size: 12px;
+        margin: 0 0 5px;
+        color: #9b9b9b
+    }
+
+    .total_dl dd {
+        font-size: 15px;
+        color: #243a48;
+        line-height: 20px;
+        font-weight: 700
+    }
+}
+
+.banking-head {
+    margin-bottom: 10px;
+    display: flex
+}
+
+.banking-head dt {
+    font-size: 13px;
+    font-weight: 700;
+    color: #3b5160;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-right: -5px;
+    border-right: 1px solid #7e97a7
+}
+
+.banking-head dt:not(:first-child) {
+    border-left: 1px solid #7e97a7;
+    margin-left: 10px
+}
+
+.banking-head dd {
+    height: 30px;
+    font-size: 23px;
+    font-weight: 700;
+    padding-left: 10px
+}
+
+.banking-head dd span {
+    font-size: 13px;
+    line-height: 15px;
+    font-weight: 400;
+    color: #3b5160;
+    margin: 8px 5px 0 0
+}
+
+.banking-head dt, .banking-head dd {
+    line-height: 30px;
+    vertical-align: top
+}
+
+.tab-transfer {
+    margin-bottom: 0
+}
+
+.tab-transfer input, .tab-transfer textarea, .tab-transfer .member_select a, .tab-transfer .member_select a {
+    border: 1px solid #aaa;
+    padding: 4px 5px;
+    box-shadow: inset 0 2px #0000001a;
+    margin: 0;
+    height: 30px
+}
+
+.btn_list-DW li:first-of-type a {
+    border-radius: 4px 0 0 4px;
+    border-right-width: 0
+}
+
+.btn_list-DW li:last-of-type a {
+    border-radius: 0 4px 4px 0
+}
+
+.btn_list-DW .btn, .btn_list-DW .btn-send, .btn_list-DW .pages a, .pages .btn_list-DW a, .btn_list-DW .calendarTable_inputBox input, .calendarTable_inputBox .btn_list-DW input, .btn_list-DW .calendarTable_inputBox textarea, .calendarTable_inputBox .btn_list-DW textarea, .btn_list-DW .calendarTable_inputBox .member_select a, .calendarTable_inputBox .member_select .btn_list-DW a, .btn_list-DW .member_select .calendarTable_inputBox a, .member_select .calendarTable_inputBox .btn_list-DW a, .btn_list-DW .total_all .btn_replay, .total_all .btn_list-DW .btn_replay, .btn_list-DW .btn_expand, .btn_list-DW .add_member {
+    width: 30px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #3b5160
+}
+
+.tab-banking .btn, .tab-banking .btn-send, .tab-banking .pages a, .pages .tab-banking a, .tab-banking .calendarTable_inputBox input, .calendarTable_inputBox .tab-banking input, .tab-banking .calendarTable_inputBox textarea, .calendarTable_inputBox .tab-banking textarea, .tab-banking .calendarTable_inputBox .member_select a, .calendarTable_inputBox .member_select .tab-banking a, .tab-banking .member_select .calendarTable_inputBox a, .member_select .calendarTable_inputBox .tab-banking a, .tab-banking .total_all .btn_replay, .total_all .tab-banking .btn_replay, .tab-banking .btn_expand, .tab-banking .add_member {
+    width: 45px
+}
+
+.tab-transfer .btn, .tab-transfer .btn-send, .tab-transfer .pages a, .pages .tab-transfer a, .tab-transfer .calendarTable_inputBox input, .calendarTable_inputBox .tab-transfer input, .tab-transfer .calendarTable_inputBox textarea, .calendarTable_inputBox .tab-transfer textarea, .tab-transfer .calendarTable_inputBox .member_select a, .calendarTable_inputBox .member_select .tab-transfer a, .tab-transfer .member_select .calendarTable_inputBox a, .member_select .calendarTable_inputBox .tab-transfer a, .tab-transfer .total_all .btn_replay, .total_all .tab-transfer .btn_replay, .tab-transfer .btn_expand, .tab-transfer .add_member {
+    width: 45px;
+    height: 28px;
+    line-height: 28px
+}
+
+.tab-transfer td {
+    padding: 4px 10px;
+    line-height: 25px
+}
+
+.DW-amount {
+    border-left: 1px solid #7e97a7
+}
+
+.btn_list-DW li:first-of-type a, .btn_list-DW li:first-of-type button {
+    border-radius: 4px 0 0 4px;
+    border-right-width: 0
+}
+
+.btn_list-DW li:nth-of-type(2) a, .btn_list-DW li:nth-of-type(2) button {
+    border-radius: 0 4px 4px 0
+}
+
+.btn_list-DW.select-D li:first-of-type a, .btn_list-DW.select-D li:first-of-type button {
+    border-color: #0003;
+    color: #fff;
+    background: #5bab03;
+    box-shadow: inset 0 1px 3px #00000080
+}
+
+.btn_list-DW.select-W li:last-of-type a, .btn_list-DW.select-W li:last-of-type button {
+    border-color: #0003;
+    color: #fff;
+    background: #d0021b;
+    box-shadow: inset 0 1px 3px #00000080
+}
+
+.btn_list-DW {
+    position: relative;
+    display: flex
+}
+
+.btn_list-DW .btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center
+}
+
+.btn_list-DW .btn, .btn_list-DW .btn-send, .btn_list-DW .pages a, .pages .btn_list-DW a, .btn_list-DW .calendarTable_inputBox input, .calendarTable_inputBox .btn_list-DW input, .btn_list-DW .calendarTable_inputBox textarea, .calendarTable_inputBox .btn_list-DW textarea, .btn_list-DW .calendarTable_inputBox .member_select a, .calendarTable_inputBox .member_select .btn_list-DW a, .btn_list-DW .member_select .calendarTable_inputBox a, .member_select .calendarTable_inputBox .btn_list-DW a, .btn_list-DW .total_all .btn_replay, .total_all .btn_list-DW .btn_replay, .btn_list-DW .btn_expand, .btn_list-DW .add_member {
+    width: 30px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #3b5160
+}
+
+.DW-amount input, .DW-amount textarea, .DW-amount .member_select a, .member_select .DW-amount a {
+    width: calc(100% - 124px);
+    font-size: 13px;
+    font-weight: 700;
+    margin: 0 7px
+}
+
+.credit-amount {
+    border-left: 1px solid #7e97a7
+}
+
+.credit-amount .btn, .credit-amount .btn-send, .credit-amount .pages a, .pages .credit-amount a, .credit-amount .calendarTable_inputBox input, .calendarTable_inputBox .credit-amount input, .credit-amount .calendarTable_inputBox textarea, .calendarTable_inputBox .credit-amount textarea, .credit-amount .calendarTable_inputBox .member_select a, .calendarTable_inputBox .member_select .credit-amount a, .credit-amount .member_select .calendarTable_inputBox a, .member_select .calendarTable_inputBox .credit-amount a, .credit-amount .total_all .btn_replay, .total_all .credit-amount .btn_replay, .credit-amount .btn_expand, .credit-amount .add_member {
+    width: 48px;
+    margin-left: 7px
+}
+
+.submit-wrap .btn-send {
+    width: 228px;
+    margin-left: 5px
+}
+
+.credit-amount input {
+    width: calc(100% - 57px)
+}
+
+.credit-amount .btn {
+    align-items: center;
+    justify-content: center
+}
+
+input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0
+}
+
+input[type=number] {
+    -moz-appearance: textfield
+}
+
+.search-wrap {
+    margin-right: 10px;
+    position: relative
+}
+
+.search-wrap:before {
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    left: 2px;
+    display: block;
+    content: "";
+    width: 19px;
+    height: 19px;
+    /* background-image: url(/assets/images/search-icon.svg); */
+    background-repeat: no-repeat;
+    background-size: contain;
+    transform: translateY(-50%)
+}
+
+.search-wrap .search-input {
+    width: 280px;
+    height: 32px;
+    border: 1px solid #aaa;
+    box-shadow: inset 0 2px #0000001a;
+    padding-left: 25px;
+    margin: 0
+}
+
+.search-wrap .search-but {
+    position: absolute;
+    top: 50%;
+    right: 3px;
+    width: 60px;
+    height: 25px;
+    border: 0;
+    border-radius: 2px;
+    transform: translateY(-50%);
+    background-color: var(--primary);
+    color: var(--on-primary);
+    font-size: 13px;
+    font-weight: 700;
+    cursor: pointer
+}
+
+.plus, .minus {
+    margin-left: 2%
+}
+
+@media (max-width: 750px) {
+    .plus, .minus {
+        margin-left: 3%
+    }
+}
+
+.box {
+    display: flex
+}
+
+.push {
+    margin-left: auto
+}
+
+@media (max-width: 750px) {
+    .filtertotaldivweb {
+        display: none
+    }
+
+    .filtertotaldivmob {
+        display: block
+    }
+}
+
+@media (min-width: 750px) {
+    .filtertotaldivweb {
+        display: flex
+    }
+
+    .filtertotaldivmob {
+        display: none
+    }
+}
+
+.total_dl_mob {
+    display: flex;
+    margin: 4px
+}
+
+/* input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 1000px white inset !important
+} */
+
+.total_all .btn_replay img {
+    margin-top: -2px !important
+}
+
+.non-prem-ref {
+    margin: -45px 0 0 97% !important
+}
+
+@media (max-width: 1000px) {
+    .non-prem-ref {
+        margin: -13px 0 -10px 85% !important
+    }
+
+    .premiun-inputlist {
+        flex-direction: column
+    }
+
+    .premiun-inputlist ul {
+        margin-top: 5px
+    }
+}
+
+.warning {
+    background: #ffbcbc
+}
+
+.watch-demo-btn {
+    position: absolute;
+    top: 3px;
+    right: 1px;
+    background-color: #007bff;
+    color: #fff;
+    padding: 8px 16px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: 500;
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    transition: background-color .3s;
+    animation: scaleBlink 1.5s infinite, gradientBlink 1.5s infinite;
+    z-index: 1;
+    font-size: 12px;
+    cursor: pointer
+}
+
+@keyframes scaleBlink {
+    0%, to {
+        transform: scale(1)
+    }
+
+    50% {
+        transform: scale(1.1)
+    }
+}
+
+@keyframes gradientBlink {
+    0% {
+        background: linear-gradient(45deg, #007bff, #ff33e0)
+    }
+
+    50% {
+        background: linear-gradient(45deg, #3359ff, #ff66e9)
+    }
+
+    to {
+        background: linear-gradient(45deg, #0600ff, #339aff)
+    }
+}
+
+.funwrap {
+    margin-top: 6px
+}
+
+@media (max-width: 768px) {
+    .watch-demo-btn {
+        right: 10px !important;
+        cursor: pointer
+    }
+}
+
+
+
+
+
+
+
+.table01, .table-s, .table_one {
+    width: 100%;
+    background-color: #fff;
+    border-collapse: collapse;
+    border-bottom: 1px solid #7e97a7;
+    margin-bottom: 15px;
+    text-align: right
+}
+
+.table01 th, .table-s th, .table_one th {
+    color: #243a48;
+    background-color: #e4e4e4;
+    border: 1px solid #7e97a7;
+    border-width: 1px 0 1px 0;
+    padding: 8px
+}
+
+.table01 td, .table-s td, .table_one td {
+    position: relative;
+    border-top: 1px solid #eee;
+    padding: 8px 7px;
+    vertical-align: middle
+}
+
+.table01 a, .table-s a, .table_one a {
+    text-decoration: none;
+    cursor: pointer
+}
+
+.table01 span, .table-s span, .table_one span {
+    vertical-align: middle
+}
+
+.table01 .action a, .table-s .action a, .table_one .action a {
+    width: 26px;
+    height: 26px;
+    margin-left: 3px
+}
+
+.table01 .action .status:hover, .table-s .action .status:hover, .table_one .action .status:hover {
+    background-position: -32px -1540px
+}
+
+.table01 .action .profile:hover, .table-s .action .profile:hover, .table_one .action .profile:hover {
+    background-position: -32px -1449px
+}
+
+.table01 .action .p_l:hover, .table-s .action .p_l:hover, .table_one .action .p_l:hover {
+    background-position: -32px -1397px
+}
+
+.table01 .action .betting_history:hover, .table-s .action .betting_history:hover, .table_one .action .betting_history:hover {
+    background-position: -32px -282px
+}
+
+.table01 caption, .table-s caption, .table_one caption {
+    background-color: #3b5160;
+    border-bottom: 1px solid #7e97a7;
+    color: #fff;
+    line-height: 1;
+    font-weight: 700;
+    padding: 0 10px
+}
+
+.table01 .order, .table-s .order, .table_one .order {
+    width: 22px;
+    margin-right: 7px;
+    font-weight: 700
+}
+
+.table01 .border-l, .table-s .border-l, .table_one .border-l {
+    border-left: 1px solid #7e97a7
+}
+
+.table01 .expand-open, .table01 .expand-close, .table-s .expand-open, .table-s .expand-close, .table_one .expand-open, .table_one .expand-close {
+    float: left;
+    height: 15px;
+    padding-right: 0;
+    margin-right: 4px
+}
+
+.table01 input, .table-s input, .table_one input {
+    margin: 0
+}
+
+.expand-close, .expand-open {
+    text-decoration: none;
+    color: #000;
+    padding-right: 20px;
+    background-position: 100% -136px
+}
+
+.expand>td {
+    padding: 0
+}
+
+.expand table .even {
+    background-color: #f2f4f7
+}
+
+.expand table .sum-pl {
+    background-color: #d9e4ec;
+    border-top: 1px solid #7e97a7
+}
+
+.expand table .sum-pl dl {
+    padding: 5px 0
+}
+
+.expand table .sum-pl dt {
+    width: 82%;
+    padding: 0 10px 5px;
+    color: #243a48
+}
+
+.expand table .sum-pl dd {
+    padding: 0 10px 5px
+}
+
+.expand table .sum-pl .net_total {
+    padding-top: 5px;
+    border-top: 1px dotted #7e97a7
+}
+
+.expand table .sum-pl td {
+    padding: 0
+}
+
+.expand .table-commission {
+    width: 75%;
+    margin-left: 23%;
+    border-right: 1px solid #7e97a7
+}
+
+.table-pnl .expand-open, .table-pnl .expand-close, .table-pnl .expand-open {
+    display: block;
+    width: inherit;
+    padding-right: 20px;
+    float: none
+}
+
+.expand-close {
+    background-position: 100% -136px
+}
+
+.expand-open {
+    background-position: 100% -151px
+}
+
+.expand-arrow-R {
+    position: absolute;
+    left: 98%;
+    margin-top: -1px;
+    background-position: -17px -118px;
+    height: 9px;
+    width: 10px
+}
+
+.expand-arrow {
+    position: absolute;
+    left: 15%;
+    margin-left: -10px;
+    background-position: -17px -127px;
+    height: 9px;
+    width: 10px
+}
+
+.table01 .btn, .table-s .btn, .table_one .btn, .table01 .btn-send, .table-s .btn-send, .table_one .btn-send, .table01 .pages a, .pages .table01 a, .table-s .pages a, .pages .table-s a, .table_one .pages a, .pages .table_one a, .table01 .calendarTable_inputBox input, .calendarTable_inputBox .table01 input, .table-s .calendarTable_inputBox input, .calendarTable_inputBox .table-s input, .table_one .calendarTable_inputBox input, .calendarTable_inputBox .table_one input, .table01 .calendarTable_inputBox textarea, .calendarTable_inputBox .table01 textarea, .table-s .calendarTable_inputBox textarea, .calendarTable_inputBox .table-s textarea, .table_one .calendarTable_inputBox textarea, .calendarTable_inputBox .table_one textarea, .table01 .calendarTable_inputBox .member_select a, .calendarTable_inputBox .member_select .table01 a, .table-s .calendarTable_inputBox .member_select a, .calendarTable_inputBox .member_select .table-s a, .table_one .calendarTable_inputBox .member_select a, .calendarTable_inputBox .member_select .table_one a, .table01 .member_select .calendarTable_inputBox a, .member_select .calendarTable_inputBox .table01 a, .table-s .member_select .calendarTable_inputBox a, .member_select .calendarTable_inputBox .table-s a, .table_one .member_select .calendarTable_inputBox a, .member_select .calendarTable_inputBox .table_one a, .table01 .total_all .btn_replay, .total_all .table01 .btn_replay, .table-s .total_all .btn_replay, .total_all .table-s .btn_replay, .table_one .total_all .btn_replay, .total_all .table_one .btn_replay, .table01 .btn_expand, .table-s .btn_expand, .table_one .btn_expand, .table01 .add_member, .table-s .add_member, .table_one .add_member {
+    text-decoration: none
+}
+
+.fromto {
+    margin: 0 5px;
+    background-position: -20px -182px;
+    height: 8px;
+    width: 7px;
+    vertical-align: middle
+}
+
+.over-wrap .table01:last-of-type, .over-wrap .table-s:last-of-type, .over-wrap .table_one:last-of-type {
+    margin-bottom: 0
+}
+
+table .btn, table .btn-send, table .marquee-pop .pages a, .marquee-pop .pages table a, table .pages a, .pages table a, table .calendarTable_inputBox input, .calendarTable_inputBox table input, table .calendarTable_inputBox textarea, .calendarTable_inputBox table textarea, table .calendarTable_inputBox .member_select a, .calendarTable_inputBox .member_select table a, table .member_select .calendarTable_inputBox a, .member_select .calendarTable_inputBox table a, table .total_all .btn_replay, .total_all table .btn_replay, table .btn_expand, table .add_member {
+    margin: 0
+}
+
+.DW-amount {
+    border-left: 1px solid #7e97a7
+}
+
+.DW-amount input, .DW-amount textarea, .DW-amount .member_select a, .member_select .DW-amount a {
+    width: calc(100% - 124px);
+    font-size: 13px;
+    font-weight: 700;
+    margin: 0 7px
+}
+
+.total, .grand-total {
+    font-weight: 700;
+    color: #243a48
+}
+
+.total td, .grand-total td {
+    border-top-color: #7e97a7;
+    border-bottom: 1px solid #7e97a7
+}
+
+.table-pt .expand.first {
+    box-shadow: inset 0 2px #0000001a
+}
+
+.table-pt .expand td {
+    border-bottom-color: #e2e8ed
+}
+
+.table-pt .expand td:first-child {
+    padding-left: 14px
+}
+
+.table-pt td, .table-pt th {
+    padding: 8px 5px
+}
+
+.table-pt .expand-open, .table-pt .expand-close {
+    width: 15px;
+    padding-left: 0
+}
+
+.table-pt>td {
+    padding: 0
+}
+
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+    .table-pt td {
+        padding: 8px 3px
+    }
+}
+
+.expand {
+    background-color: #e2e8ed
+}
+
+.expand>td {
+    position: relative;
+    border-top-color: #7e97a7;
+    border-bottom: 1px solid #7e97a7
+}
+
+.expand.expand_1 {
+    background-color: #ebebeb
+}
+
+.expand.expand_1 td:first-child {
+    padding-left: 6px !important
+}
+
+.expand.expand_2 {
+    background-color: #e9e9e9
+}
+
+.expand.expand_2 td:first-child {
+    padding-left: 12px !important
+}
+
+.expand.expand_3 {
+    background-color: #e6e6e6
+}
+
+.expand.expand_3 td:first-child {
+    padding-left: 18px !important
+}
+
+.expand.expand_4 {
+    background-color: #e4e4e4
+}
+
+.expand.expand_4 td:first-child {
+    padding-left: 24px !important
+}
+
+.expand.expand_5 {
+    background-color: #e1e1e1
+}
+
+.expand.expand_5 td:first-child {
+    padding-left: 30px !important
+}
+
+.expand.expand_6 {
+    background-color: #dfdfdf
+}
+
+.expand.expand_6 td:first-child {
+    padding-left: 36px !important
+}
+
+.expand.expand_7 {
+    background-color: #dcdcdc
+}
+
+.expand.expand_7 td:first-child {
+    padding-left: 42px !important
+}
+
+.expand.expand_8 {
+    background-color: #dadada
+}
+
+.expand.expand_8 td:first-child {
+    padding-left: 48px !important
+}
+
+.expand.expand_9 {
+    background-color: #d7d7d7
+}
+
+.expand.expand_9 td:first-child {
+    padding-left: 54px !important
+}
+
+.expand.expand_10 {
+    background-color: #d5d5d5
+}
+
+.expand.expand_10 td:first-child {
+    padding-left: 60px !important
+}
+
+.expand table {
+    width: 85%;
+    border-left: 1px solid #7e97a7;
+    border-bottom-width: 0;
+    margin-left: 15%
+}
+
+.expand table th {
+    background-color: transparent;
+    border-top-width: 0
+}
+
+.expand table td {
+    border-width: 0;
+    padding: 8px 10px
+}
+
+.expand-balance th {
+    padding: 8px 10px
+}
+
+.expand>td, .table01 .border-t td, .table-s .border-t td, .table_one .border-t td, .slip-head {
+    box-shadow: inset 0 2px #0000001a
+}
+
+.expand-arrow {
+    visibility: visible
+}
+
+.table01 .btn-recall, .table-s .btn-recall, .table_one .btn-recall {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    font-size: 11px;
+    line-height: 2;
+    text-decoration: none;
+    padding: 0
+}
+
+.event-left, .event-right {
+    width: 49.5%
+}
+
+h3 {
+    margin: 0;
+    /* font-weight: 700; */
+    font-size: 13px
+}
+
+@media (max-width: 750px) {
+    .event-left, .event-right {
+        width: 100%
+    }
+
+    .profile-wrap .favor-set {
+        top: 100% !important
+    }
+}
+
+.profile-wrap {
+    background-color: #fff;
+    border-bottom: 1px solid #7e97a7;
+    margin-bottom: 15px
+}
+
+.profile-wrap h3 {
+    background-color: #7e97a7;
+    color: #fff;
+    line-height: 24px;
+    padding: 0 10px
+}
+
+.profile-wrap dl {
+    display: grid;
+    grid-template-columns: 1fr 3fr
+}
+
+.profile-wrap dt {
+    width: 125px;
+    padding: 5px 0 5px 10px;
+    color: #243a48;
+    border-bottom: 1px solid #e0e6e6
+}
+
+.profile-wrap dd {
+    position: relative;
+    min-height: 16px;
+    padding: 5px 0 5px 10px;
+    border-bottom: 1px solid #e0e6e6;
+    margin-left: -10px
+}
+
+.profile-wrap dd:last-child {
+    border-bottom-width: 0
+}
+
+.profile-wrap .favor-set {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 5px;
+    cursor: pointer
+}
+
+.profile-wrap select {
+    min-width: 150px;
+    margin: 0
+}
+
+@media (max-width: 800px) {
+    .profile-wrap .favor-set {
+        transform: translateY(-100%)
+    }
+}
+
+.event-left dt, .event-right dt {
+    font-size: 11px
+}
+
+.errors {
+    color: red
+}
+
+.profile-wrap dd {
+    padding: 5px 0 5px 20px
+}
+
+.message-wrap {
+    position: fixed;
+    top: 0;
+    left: 50%;
+    width: 50%;
+    padding: 15px 0;
+    font-size: 14px;
+    color: #1e1e1e;
+    z-index: 101;
+    border-radius: 0 0 5px 5px;
+    transform: translate(-50%)
+}
+
+
+
+
+.slider.round {
+    border-radius: 34px
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    inset: 0;
+    transition: .4s
+}
+
+
+input:checked+.slider:before {
+    transform: translate(26px)
+}
+
+.slider.round:before {
+    border-radius: 50%
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 22px;
+    width: 22px;
+    left: 4px;
+    bottom: 2px;
+    transition: .4s
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 54px;
+    height: 26px
+}
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0
+}
+
+.modal {
+    position: fixed;
+    top: 10%;
+    left: 50%;
+    z-index: 1050;
+    width: 406px;
+    margin-left: -212px;
+    border-radius: 6px
+}
+
+.modal-header {
+    padding: 9px 15px
+}
+
+.modal-title {
+    color: var(--background) !important;
+    font-size: 12px
+}
+
+.bg-success {
+    background-color: var(--primary)
+}
+
+.modal-body {
+    position: relative;
+    overflow-y: auto;
+    max-height: 400px;
+    padding: 15px
+}
+
+.form-group {
+    position: relative;
+    width: 100%;
+    margin-bottom: 16px
+}
+
+.btn-send {
+    border-radius: 4px;
+    font-weight: 700;
+    line-height: 23px;
+    font-size: 12px;
+    font-weight: 700 !important;
+    margin: 0 5px 10px 0;
+    display: block;
+    text-align: center
+}
+
+.col-lg-12 {
+    float: none
+}
+
+
+
+.pop_box1 {
+    position: fixed;
+    top: 10%;
+    left: 50%;
+    width: 500px;
+    border-radius: 5px;
+    padding: 15px;
+    transform: translate(-50%)
+}
+
+.pop_bg {
+    position: fixed;
+    inset: 0;
+    width: 100% !important;
+    height: 100% !important;
+    z-index: 80;
+    background: linear-gradient(45deg, rgba(0, 0, 0, .3), rgba(0, 0, 0, .3))
+}
+
+.message-wrap {
+    position: fixed;
+    top: 0;
+    left: 50%;
+    width: 50%;
+    padding: 8px 0;
+    background-color: #f8e71c;
+    font-size: 14px;
+    color: #1e1e1e;
+    z-index: 101;
+    border-radius: 0 0 5px 5px;
+    transform: translate(-50%);
+    right: 11px;
+    margin-top: 8%;
+    width: 98%;
+    z-index: 9999;
+    display: block
+}
+
+.message-wrap.success {
+    background-color: #6bbd11 !important;
+    color: #000
+}
+
+.close {
+    opacity: 1.2 !important
+}
+
+.watch-demo-btn {
+    position: absolute;
+    top: 3px;
+    right: 1px;
+    background-color: #007bff;
+    color: #fff;
+    padding: 8px 16px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: 500;
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    transition: background-color .3s;
+    animation: scaleBlink 1.5s infinite, gradientBlink 1.5s infinite;
+    z-index: 1;
+    font-size: 12px;
+    cursor: pointer
+}
+
+@keyframes scaleBlink {
+    0%, to {
+        transform: scale(1)
+    }
+
+    50% {
+        transform: scale(1.1)
+    }
+}
+
+@keyframes gradientBlink {
+    0% {
+        background: linear-gradient(45deg, #007bff, #ff33e0)
+    }
+
+    50% {
+        background: linear-gradient(45deg, #3359ff, #ff66e9)
+    }
+
+    to {
+        background: linear-gradient(45deg, #0600ff, #339aff)
+    }
+}
+
+
+@media (max-width: 768px) {
+    .watch-demo-btn {
+        right: 10px !important;
+        cursor: pointer
+    }
+}
+
+.dd {
+    margin: 0 !important;
+}
+
+.tab-transfer td {
+    padding: 4px 10px;
+    line-height: 25px;
+}
+
+label {
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+    font-weight: 700;
+}
+
+.invalid-feedback {
+    display: flex;
+    width: 100%;
+
+    margin-top: 0 !important;
+}
+
+.red a {
+    text-decoration: underline;
+}
+
+.h1, .h3, .h4, .h5, .h6, h1, h3, h4, h5, h6 {
+    margin-bottom: 0;
+}
+
+
+
+dp-day-calendar {
+    display: inline-block
+}
+
+dp-day-calendar .dp-day-calendar-container {
+    background: #fff
+}
+
+dp-day-calendar .dp-calendar-wrapper {
+    box-sizing: border-box;
+    border: 1px solid #000
+}
+
+dp-day-calendar .dp-calendar-wrapper .dp-calendar-weekday:first-child {
+    border-left: none
+}
+
+dp-day-calendar .dp-weekdays {
+    font-size: 15px;
+    margin-bottom: 5px
+}
+
+dp-day-calendar .dp-calendar-weekday {
+    box-sizing: border-box;
+    display: inline-block;
+    width: 30px;
+    text-align: center;
+    border-left: 1px solid #000;
+    border-bottom: 1px solid #000
+}
+
+dp-day-calendar .dp-calendar-day {
+    box-sizing: border-box;
+    width: 30px;
+    height: 30px;
+    cursor: pointer
+}
+
+dp-day-calendar .dp-selected {
+    background: #106cc8;
+    color: #fff
+}
+
+dp-day-calendar .dp-next-month, dp-day-calendar .dp-prev-month {
+    opacity: .5
+}
+
+dp-day-calendar .dp-hide-near-month .dp-next-month, dp-day-calendar .dp-hide-near-month .dp-prev-month {
+    visibility: hidden
+}
+
+dp-day-calendar .dp-week-number {
+    position: absolute;
+    font-size: 9px
+}
+
+dp-day-calendar.dp-material .dp-calendar-weekday {
+    height: 25px;
+    width: 30px;
+    line-height: 25px;
+    color: #7a7a7a;
+    border: none
+}
+
+dp-day-calendar.dp-material .dp-calendar-wrapper {
+    border: 1px solid #e0e0e0
+}
+
+dp-day-calendar.dp-material .dp-calendar-day, dp-day-calendar.dp-material .dp-calendar-month {
+    box-sizing: border-box;
+    background: #fff;
+    border-radius: 50%;
+    border: none;
+    outline: none
+}
+
+dp-day-calendar.dp-material .dp-calendar-day:hover, dp-day-calendar.dp-material .dp-calendar-month:hover {
+    background: #e0e0e0
+}
+
+dp-day-calendar.dp-material .dp-selected {
+    background: #106cc8;
+    color: #fff
+}
+
+dp-day-calendar.dp-material .dp-selected:hover {
+    background: #106cc8
+}
+
+dp-day-calendar.dp-material .dp-current-day {
+    border: 1px solid #106cc8
+}
+
+
+
+dp-calendar-nav .dp-calendar-nav-container {
+    position: relative
+}
+
+dp-calendar-nav .dp-calendar-nav-container, dp-calendar-nav .dp-nav-date-btn {
+    box-sizing: border-box;
+    height: 25px;
+    border: 1px solid #000;
+    border-bottom: none
+}
+
+dp-calendar-nav .dp-nav-btns-container {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 5px;
+    display: inline-block
+}
+
+dp-calendar-nav .dp-calendar-nav-container-left, dp-calendar-nav .dp-calendar-nav-container-right {
+    display: inline-block
+}
+
+dp-calendar-nav .dp-calendar-nav-left, dp-calendar-nav .dp-calendar-nav-right, dp-calendar-nav .dp-calendar-secondary-nav-left, dp-calendar-nav .dp-calendar-secondary-nav-right {
+    position: relative;
+    width: 16px;
+    cursor: pointer
+}
+
+dp-calendar-nav .dp-calendar-nav-left, dp-calendar-nav .dp-calendar-nav-right {
+    line-height: 0
+}
+
+dp-calendar-nav .dp-calendar-nav-left:before, dp-calendar-nav .dp-calendar-nav-right:before {
+    position: relative;
+    content: "";
+    display: inline-block;
+    height: 8px;
+    width: 8px;
+    vertical-align: baseline;
+    border-style: solid;
+    border-width: 2px 2px 0 0;
+    transform: rotate(45deg)
+}
+
+dp-calendar-nav .dp-calendar-secondary-nav-left, dp-calendar-nav .dp-calendar-secondary-nav-right {
+    padding: 0
+}
+
+dp-calendar-nav .dp-calendar-secondary-nav-left:after, dp-calendar-nav .dp-calendar-secondary-nav-left:before, dp-calendar-nav .dp-calendar-secondary-nav-right:after, dp-calendar-nav .dp-calendar-secondary-nav-right:before {
+    position: relative;
+    content: "";
+    display: inline-block;
+    height: 8px;
+    width: 8px;
+    vertical-align: baseline;
+    border-style: solid;
+    border-width: 2px 2px 0 0;
+    transform: rotate(45deg)
+}
+
+dp-calendar-nav .dp-calendar-secondary-nav-left:before, dp-calendar-nav .dp-calendar-secondary-nav-right:before {
+    right: -10px
+}
+
+dp-calendar-nav .dp-calendar-secondary-nav-right {
+    left: auto;
+    right: 5px
+}
+
+dp-calendar-nav .dp-calendar-nav-left:before, dp-calendar-nav .dp-calendar-secondary-nav-left:after, dp-calendar-nav .dp-calendar-secondary-nav-left:before {
+    position: relative;
+    content: "";
+    display: inline-block;
+    height: 8px;
+    width: 8px;
+    vertical-align: baseline;
+    border-style: solid;
+    border-width: 2px 2px 0 0;
+    transform: rotate(-135deg)
+}
+
+dp-calendar-nav .dp-calendar-secondary-nav-left:before {
+    right: -10px
+}
+
+dp-calendar-nav .dp-nav-header {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 5px;
+    display: inline-block;
+    font-size: 13px
+}
+
+dp-calendar-nav .dp-nav-header-btn {
+    cursor: pointer
+}
+
+dp-calendar-nav .dp-current-location-btn {
+    position: relative;
+    top: -1px;
+    height: 16px;
+    width: 16px;
+    vertical-align: middle;
+    background: rgba(0, 0, 0, .6);
+    border: 1px solid rgba(0, 0, 0, .6);
+    outline: none;
+    border-radius: 50%;
+    box-shadow: inset 0 0 0 3px #fff;
+    cursor: pointer
+}
+
+dp-calendar-nav .dp-current-location-btn:hover {
+    background: #000
+}
+
+dp-calendar-nav.dp-material .dp-calendar-nav-container {
+    height: 30px;
+    border: 1px solid #e0e0e0
+}
+
+dp-calendar-nav.dp-material .dp-calendar-nav-left, dp-calendar-nav.dp-material .dp-calendar-nav-right, dp-calendar-nav.dp-material .dp-calendar-secondary-nav-left, dp-calendar-nav.dp-material .dp-calendar-secondary-nav-right {
+    border: none;
+    background: #fff;
+    outline: none;
+    font-size: 16px;
+    padding: 0
+}
+
+dp-calendar-nav.dp-material .dp-calendar-secondary-nav-left, dp-calendar-nav.dp-material .dp-calendar-secondary-nav-right {
+    width: 20px
+}
+
+dp-calendar-nav.dp-material .dp-nav-header-btn {
+    height: 20px;
+    width: 80px;
+    border: none;
+    background: #fff;
+    outline: none
+}
+
+dp-calendar-nav.dp-material .dp-nav-header-btn:hover {
+    background: rgba(0, 0, 0, .05)
+}
+
+dp-calendar-nav.dp-material .dp-nav-header-btn:active {
+    background: rgba(0, 0, 0, .1)
+}
+
+
+dp-time-select {
+    display: inline-block
+}
+
+dp-time-select .dp-time-select-controls {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    line-height: normal;
+    background: #fff
+}
+
+dp-time-select .dp-time-select-control {
+    display: inline-block;
+    width: 35px;
+    margin: 0 auto;
+    vertical-align: middle;
+    font-size: inherit;
+    letter-spacing: 1px
+}
+
+dp-time-select .dp-time-select-control-down, dp-time-select .dp-time-select-control-up {
+    position: relative;
+    display: block;
+    width: 24px;
+    height: 24px;
+    margin: 3px auto;
+    cursor: pointer
+}
+
+dp-time-select .dp-time-select-control-down:before, dp-time-select .dp-time-select-control-up:before {
+    position: relative;
+    content: "";
+    display: inline-block;
+    height: 8px;
+    width: 8px;
+    vertical-align: baseline;
+    border-style: solid;
+    border-width: 2px 2px 0 0;
+    transform: rotate(0deg)
+}
+
+dp-time-select .dp-time-select-control-up:before {
+    transform: rotate(-45deg);
+    top: 4px
+}
+
+dp-time-select .dp-time-select-control-down:before {
+    transform: rotate(135deg)
+}
+
+dp-time-select .dp-time-select-separator {
+    width: 5px
+}
+
+dp-time-select.dp-material .dp-time-select-control-down, dp-time-select.dp-material .dp-time-select-control-up {
+    box-sizing: border-box;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-radius: 50%
+}
+
+dp-time-select.dp-material .dp-time-select-control-down:before, dp-time-select.dp-material .dp-time-select-control-up:before {
+    left: 0
+}
+
+dp-time-select.dp-material .dp-time-select-control-down:hover, dp-time-select.dp-material .dp-time-select-control-up:hover {
+    background: #e0e0e0
+}
+
+
+
+select {
+    height: 29px !important;
+}
+
+
+
+
+
+
+
+
+
+
+.matched-head, .slip-head {
+    background-color: #ced5da;
+    padding: 0 10px;
+    display: block
+}
+
+.expand>td, .for-agent, .head-bets-agent, .matched-head, .slip-head {
+    box-shadow: inset 0 2px #0000001a;
+}
+
+.matched-head li, .slip-head li {
+    padding: 5px 0;
+}
+
+.slip-head .col-playID {
+    width: calc(100% - 230px);
+    display: block;
+}
+
+.slip-head .col-exp {
+    width: 100px;
+}
+
+.top_player-wrap .slip-head .col-amount {
+    width: 130px;
+}
+
+.agent-sprite, .lock, .close_pop, .go-back img, .pop-close img, .bank, .betting_history, .p_l, .profile, .status, .total_all .btn_replay img, .add_member img, .all_rc img, .status-active img, .status-suspend img, .status-lock img, .table01 .ico_account img, .table-s .ico_account img, .table_one .ico_account img, .table01 .status_all .icon_active img, .table-s .status_all .icon_active img, .table_one .status_all .icon_active img, .table01 .status_all .icon_locked img, .table-s .status_all .icon_locked img, .table_one .status_all .icon_locked img, .table01 .status_all .icon_suspend img, .table-s .status_all .icon_suspend img, .table_one .status_all .icon_suspend img, .table01 .action .bank:hover, .table-s .action .bank:hover, .table_one .action .bank:hover, .table01 .action .betting_history:hover, .table-s .action .betting_history:hover, .table_one .action .betting_history:hover, .table01 .action .p_l:hover, .table-s .action .p_l:hover, .table_one .action .p_l:hover, .table01 .action .profile:hover, .table-s .action .profile:hover, .table_one .action .profile:hover, .table01 .action .status:hover, .table-s .action .status:hover, .table_one .action .status:hover, .btn_open, .btn_close, .ico_dot1, .ico_dot2, .ico_dot3, .toggle_on, .toggle_off, .status_but .but_active img, .status_but .but_suspend img, .status_but .but_locked img, .status_but .but_active.open img, .status_but .open.but_suspend img, .status_but .open.but_locked img, .status_but .but_active.disable img, .status_but .disable.but_suspend img, .status_but .disable.but_locked img, .agent_path-L li, .agent_path-L img, .currency_tag_all li.currency_tag, .currency_tag_all li:first-child, .drop_down_li a, .col-center .acc-info .user, .tab-topplay li:before, .tab-topplay li:after, .tab-topplay .select:before, .tab-topplay .select:after, .sort-this:after, .open-odds:before, .close-odds:before, .icon-date, .agent-path li, .agent-path .point-agent-path, .credit-amount-member .btn, .credit-amount-member .btn-send, .credit-amount-member .pages a, .pages .credit-amount-member a, .credit-amount-member .calendarTable_inputBox input, .calendarTable_inputBox .credit-amount-member input, .credit-amount-member .calendarTable_inputBox textarea, .calendarTable_inputBox .credit-amount-member textarea, .credit-amount-member .calendarTable_inputBox .member_select a, .calendarTable_inputBox .member_select .credit-amount-member a, .credit-amount-member .member_select .calendarTable_inputBox a, .member_select .calendarTable_inputBox .credit-amount-member a, .credit-amount-member .total_all .btn_replay, .total_all .credit-amount-member .btn_replay, .credit-amount-member .btn_expand, .credit-amount-member .add_member, .credit-amount-member .btn:hover, .credit-amount-member .btn-send:hover, .credit-amount-member .pages a:hover, .pages .credit-amount-member a:hover, .credit-amount-member .calendarTable_inputBox input:hover, .calendarTable_inputBox .credit-amount-member input:hover, .credit-amount-member .calendarTable_inputBox textarea:hover, .calendarTable_inputBox .credit-amount-member textarea:hover, .credit-amount-member .calendarTable_inputBox .member_select a:hover, .calendarTable_inputBox .member_select .credit-amount-member a:hover, .credit-amount-member .member_select .calendarTable_inputBox a:hover, .member_select .calendarTable_inputBox .credit-amount-member a:hover, .credit-amount-member .total_all .btn_replay:hover, .total_all .credit-amount-member .btn_replay:hover, .credit-amount-member .btn_expand:hover, .credit-amount-member .add_member:hover, .btn-add:before, .icon-select_all, .icon-select_partial {
+    background-image: url(/public/assets/images/agent-sf42eb279ae.png);
+    background-repeat: no-repeat;
+}
+
+.sort-this:after {
+    background-position: -47px -163px;
+    content: "";
+    height: 7px;
+    width: 11px;
+}
+
+
+input {
+    border-bottom: 1px solid #b5b5b5;
 }

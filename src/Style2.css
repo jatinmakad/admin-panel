@@ -1,0 +1,152 @@
+.favor-wrap, .game-highlight-wrap, .game-wrap, .pop-title, .racing-wrap, .sub_path, .top_player-wrap {
+    background-color: #fff;
+    border-bottom: 1px solid #7e97a7;
+}
+
+.racing-wrap, .top_player-wrap {
+    margin-bottom: 0;
+}
+
+.top_player-wrap {
+    margin-right: 15px;
+    width: 100%;
+}
+
+.racing-wrap h3, .top_player-wrap h3 {
+    background-position: 0 -6273px;
+    box-shadow: 0 2px #0000001a;
+}
+
+.top_player-wrap h3, .tab-topplay .select a, .tab-topplay a, .racing-wrap h3 {
+    height: 30px;
+    position: relative;
+    background-image: url(/public/assets/images/bg-s2ccfda7730.c0cbf308c41de63a6c54.png);
+}
+
+.favor-wrap h3, .game-highlight-wrap h3, .game-wrap h3, .pop-title h3, .racing-wrap h3, .sub_path h3, .top_player-wrap h3 {
+    background-position: 0 -6148px;
+    background-repeat: repeat-x;
+    color: #fff;
+    height: 27px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 25px;
+    padding-left: 10px;
+}
+
+.tab-topplay li {
+    font-weight: 700;
+    height: 28px;
+    line-height: 28px;
+    margin-left: -12px;
+    padding: 0 19px 0 5px;
+    position: relative;
+    cursor: pointer;
+}
+
+.tab-topplay .select {
+    height: 30px;
+    z-index: 2;
+}
+
+
+.tab-topplay .select:after, .tab-topplay .select:before, .tab-topplay li:after, .tab-topplay li:before {
+    background-image: url(/public/assets/images/agent-sf42eb279ae.1b7f59561d954e93ce49.png);
+    background-repeat: no-repeat;
+}
+
+.tab-topplay .select:before {
+    background-position: -53px -334px;
+    height: 30px;
+    width: 5px;
+}
+
+.tab-topplay .select a {
+    background-position: 0 -10721px;
+    background-repeat: repeat-x;
+    color: #254d6a;
+}
+
+.top_player-wrap h3, .tab-topplay .select a, .tab-topplay a, .racing-wrap h3 {
+    height: 30px;
+    position: relative;
+    background-image: url(/public/assets/images/bg-s2ccfda7730.c0cbf308c41de63a6c54.png);
+}
+
+.tab-topplay .select:after {
+    background-position: -39px -392px;
+    height: 30px;
+    width: 19px;
+}
+
+.tab-topplay .select:after, .tab-topplay .select:before, .tab-topplay li:after, .tab-topplay li:before {
+    background-image: url(/public/assets/images/agent-sf42eb279ae.1b7f59561d954e93ce49.png);
+    background-repeat: no-repeat;
+}
+
+.tab-topplay .select:after, .tab-topplay .select:before, .tab-topplay li:after, .tab-topplay li:before {
+    background-image: url(/public/assets/images/agent-sf42eb279ae.1b7f59561d954e93ce49.png);
+    background-repeat: no-repeat;
+}
+
+.tab-topplay li:before {
+    background-position: -53px -364px;
+    content: "";
+    height: 28px;
+    left: 0;
+    position: absolute;
+    width: 5px;
+}
+
+.top_player-wrap h3, .tab-topplay .select a, .tab-topplay a, .racing-wrap h3 {
+    height: 30px;
+    position: relative;
+    background-image: url(/public/assets/images/bg-s2ccfda7730.c0cbf308c41de63a6c54.png);
+}
+
+.tab-topplay a {
+    background-position: 0 -10751px;
+    background-repeat: repeat-x;
+    height: 100%;
+    padding-left: 10px;
+}
+
+.top_player-wrap h3 a {
+    color: #fff;
+}
+
+.tab-topplay   .select:after, .tab-topplay   .select:before, .tab-topplay   li:after, .tab-topplay   li:before {
+    background-image: url(/public/assets/images/agent-sf42eb279ae.1b7f59561d954e93ce49.png);
+    background-repeat: no-repeat;
+}
+.tab-topplay   li:after {
+    background-position: -39px -422px;
+    content: "";
+    height: 28px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 19px;
+}
+
+.favor-wrap   h3, .game-highlight-wrap   h3, .game-wrap   h3, .pop-title   h3, .racing-wrap   h3, .sub_path   h3, .top_player-wrap   h3 {
+    background-position: 0 -6148px;
+    background-repeat: repeat-x;
+    color: #fff;
+    height: 27px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 25px;
+    padding-left: 10px;
+}
+.tab-topplay {
+    left: 12px;
+    position: absolute;
+    top: -3px;
+}
+/* 
+.total_all   h2 {
+    color: #243a48;
+    font-size: 16px;
+    font-weight: 700;
+} */
